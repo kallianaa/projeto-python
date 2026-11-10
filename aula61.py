@@ -1,7 +1,7 @@
 import random
 
-
 nove_digitos = "";
+
 for i in range(9):
     nove_digitos += str(random.randint(0, 9));
 
@@ -26,8 +26,11 @@ segundo_digito = (resultado_digito_2*10) % 11;
 segundo_digito = segundo_digito if segundo_digito <= 9 else 0;
 print(segundo_digito);
 
+# cpf_gerado_pelo_calculo = f"{nove_digitos}{primeiro_digito}{segundo_digito}";
+# if cpf_gerado_pelo_calculo == cpf:
+#     print(f"CPF VÁLIDO: {cpf_gerado_pelo_calculo}");
+# else:
+#     print(f"CPF INVÁLIDO: {cpf_gerado_pelo_calculo}");
+
 cpf_gerado_pelo_calculo = f"{nove_digitos}{primeiro_digito}{segundo_digito}";
-if cpf_gerado_pelo_calculo == cpf:
-    print(f"CPF VÁLIDO: {cpf_gerado_pelo_calculo}");
-else:
-    print(f"CPF INVÁLIDO: {cpf_gerado_pelo_calculo}");
+print(cpf_gerado_pelo_calculo);
