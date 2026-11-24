@@ -23,3 +23,13 @@
 # json.dump = Gera um arquivo json
 # json.load = Lê um arquivo json
 
+caminho_arquivo = 'C:\\Users\\egla1055\\Criando_Arquivo_Com_Python\\'
+caminho_arquivo += 'aula116.txt'
+
+arquivo = open(caminho_arquivo, 'w')  # Abre o arquivo para escrita (cria se não existir)
+
+arquivo.close()  # Fecha o arquivo
+
+with open(caminho_arquivo, 'w') as arquivo:  # Abre o arquivo para escrita (cria se não existir)
+    arquivo.write('Olá mundo\n')
+    arquivo.write('Hello World\n')
