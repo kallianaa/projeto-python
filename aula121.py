@@ -1,6 +1,5 @@
 # Positional-Only Parameters (/) e Keyword-Only Arguments (*)
-# *args (ilimitado de argumentos posicionais)
-# **kwargs (ilimitado de argumentos nomeados)
+# *args (ilimitado de argumentos posicionais) e**kwargs (ilimitado de argumentos nomeados)
 # 🟢 Positional-only Parameters (/) - Tudo antes da barra deve ser ❗️APENAS❗️ posicional.
 # PEP 570 – Python Positional-Only Parameters
 # https://peps.python.org/pep-0570/
